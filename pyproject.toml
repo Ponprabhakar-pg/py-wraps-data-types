@@ -4,7 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py-wraps-data-types"
-version = "0.1.0"
+version = "0.1.1"
 description = "Foundational data types and schemas for scalable Python wrappers."
-requires-python = ">=3.14"
+requires-python = ">=3.9"
 dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
