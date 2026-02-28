@@ -4,8 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py-wraps-data-types"
-version = "0.1.1"
+version = "0.1.2"
 description = "Foundational data types and schemas for scalable Python wrappers."
+readme = "README.md"
 requires-python = ">=3.9"
 dependencies = []
 
